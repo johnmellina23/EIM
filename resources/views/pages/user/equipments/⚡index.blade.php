@@ -9,43 +9,7 @@ new class extends Component
 ?>
 
 <div class="container mt-5">
-    <div class="row">
-        <div class="col-lg-3">
-            <div class="card">
-                <div class="card-header text-center">
-                    <img src="../img/waltermart-logo.png" style="width: 100px; height: 20px;" alt="">
-                </div>
-                <div class="card-body">
-                    <div class="mb-3">
-                        <label for="" class="fw-bold">Department</label>
-                        <select class="form-select" aria-label="Default select example">
-                            <option selected>Select option</option>
-                            <option value="1">WMS</option>
-                            <option value="2">WDS</option>
-                        </select>
-                    </div>
-                     <div class="mb-3">
-                        <label for="" class="fw-bold">Asset Category</label>
-                        <select class="form-select" aria-label="Default select example">
-                            <option selected>Select option</option>
-                            <option value="1">POS</option>
-                            <option value="2">WORKSTATION</option>
-                        </select>
-                    </div>
-                    <div class="mb-3">
-                        <label for="" class="fw-bold">Location</label>
-                        <select class="form-select" aria-label="Default select example">
-                            <option selected>Select option</option>
-                            <option value="1">CHECKOUT COUNTER AREA</option>
-                            <option value="2">IT/SERVER ROOM</option>
-                        </select>
-                    </div>
-                    <div class="mb-3">
-                        <button class="btn btn-warning w-100">Filter</button>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <div class="row justify-content-center">
         <div class="col-lg-9">
             <div class="card">
                 <div class="card-header">
